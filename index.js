@@ -32,7 +32,7 @@ function App (){
         setTodos(temp);
     }
     
-    return ( 
+    return (<> 
         <div className="app">
             <div className="todo-list">
                 {todos.map((todo,i) => 
@@ -40,7 +40,7 @@ function App (){
                 <TodoForm addTodo={addTodo}/>
             </div>
         </div>
-    );
+    </>);
 }
 
 ReactDOM.render(
