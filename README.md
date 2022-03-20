@@ -1,7 +1,7 @@
 # ToDo-Exercise
 Description of Project: This project creates a styled ToDo list application in React.  This project is intended to demonstrate how to set state in a React app and how to refactor code in order to separate the functionality into separate components.
 
-How to Run: Save the file to your system by downloading the index.html file in this repository. After saving, drag and drop the file onto your browser. Before beginning the animation, click on the button labeled "Add PacMan" to add as man PacMen to the screen as you would like. Once you have added as many PacMen as you prefer, click on the buttom labeled "Start Game" to prompt the PacMen images to move. The PacMen images will move on the screen and change directions as they collide with the sides of the webpage.
+How to Run: Clone this repository to your local machine, then open a command line on your computer terminal and run the command "cd path-to-project-root (the directory where the cloned repository is located on your local machine). From there, run "npm install http-server" and once complete, run "http-server -c-1". Lastly, open your web browser and load: http://127.0.0.1:8080. Once the ToDo page loads, you can click on each todo item to clear it off of the list.
 
 Roadmap of Future Improvements: Looking ahead, I would like to add in additional functionality that allows the user to delete todo items once they have been completed.
 
