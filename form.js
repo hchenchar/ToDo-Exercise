@@ -11,7 +11,7 @@ function TodoForm(addTodo){
     }
 
     return (
-        <form onSubmit={hamdleSubmit}>
+        <form onSubmit={handleSubmit}>
         <input 
         type="text"
         className="input"
