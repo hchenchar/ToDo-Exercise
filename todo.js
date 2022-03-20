@@ -1,4 +1,4 @@
-function Todo(){
+function Todo({todo,index,remove}){
    function handle(){
        remove(index);
    }
